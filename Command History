@@ -1,4 +1,4 @@
-Name,Value,Description
+Name                   Value                  Description
 Cloud Private DNS Zone:gcp.example.com        On premises Private DNS Zone
 Cloud VPN Gateway INTERFACE0:34.157.101.116  "IP for the VPN Gateway INTERFACE0, generated when creating the VPN Gateway"
 Cloud VPN Gateway INTERFACE1:35.220.91.217   "IP for the VPN Gateway INTERFACE1, generated when creating the VPN Gateway"
@@ -6,6 +6,13 @@ Project id:                                   Project ID for the existing GCP pr
 Region: us-central1                           Deployment region for the GCP environment
 VPC CIDR: 10.0.1.0/24                         GCP network CIDR subnet range
 VPC Name: vpc                                 Name for the GCP VPC
+
+Name        Value                                   Description
+External IP:34.35.43.205                            External IP address
+Internal IP:10.0.0.2/24                             Internal IP address, which will be configured on a loopback interface
+On premises CIDR,10.0.0.0/24,                       Onprem network CIDR
+On premises Private DNS Zone:onprem.example.com     On premises Private DNS Zone
+
 
 
 HA-VPN Commands
