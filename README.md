@@ -30,7 +30,7 @@ HA-VPN CONFIGURATION
       gcloud config set project **YOU-PROJECT-ID**
 
 ## Create a VPC named "vpc"
-## Enable `compute.googleapis.com` if prompted to do so.
+### Enable `compute.googleapis.com` if prompted to do so.
 
       gcloud compute networks create vpc --bgp-routing-mode=global \
         --subnet-mode=custom
