@@ -51,7 +51,7 @@ HA-VPN CONFIGURATION
         --network=vpc \
         --region=us-central1
       
-      It will be giving you tunnel interface0 and interface1 ips that we will be using in our on prem section in **ipsec.conf** file.
+      It will be giving you tunnel **interface0 and interface1** ips that we will be using in our on prem section in **ipsec.conf** file.
 
 ## Create the external vpn gateway object
       
